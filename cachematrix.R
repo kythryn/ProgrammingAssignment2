@@ -1,8 +1,8 @@
 ## Two functions to create a matrix and a value for its verse, and then to check to see
-  ## if the inverse exists, and create it if not
+## if the inverse exists, and create it if not
 
 ## A function contain functions to set a matrix, get the matrix, set the matrix
-  ## inverse, and get the inverse
+## inverse, and get the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Returns the set inverse of the matrix, or if null, calculutes, stores and returns
-  ## the matrix inverse
+## the matrix inverse
 
 cacheSolve <- function(x, ...) {
   
